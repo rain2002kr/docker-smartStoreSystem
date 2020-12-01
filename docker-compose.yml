@@ -19,4 +19,4 @@ services:
     volumes:
       - /usr/app/node_modules
       - ./NodeBack:/usr/app
-    command: ["npm", "run" , "dev"]
+    command: ["npm","run", "dev" ]

@@ -14,7 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server.js",
-    "dev" : "yarn start"
+    "dev": "NODE_PATH=./src nodemon src/server.js"
   },
   "author": "",
   "license": "ISC"
