@@ -12,4 +12,4 @@
         FROM node:15-alpine
         #FROM alpine:3.10
         도커 이미지 허브에서 생성법을 보고 하면 됨.
-
+        test
