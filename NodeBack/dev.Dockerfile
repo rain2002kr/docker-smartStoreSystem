@@ -1,6 +1,7 @@
-FROM alpine:3.10
+FROM node:12-alpine
+#FROM alpine:3.10
 
-ENV NODE_VERSION 15.3.0
+#ENV NODE_VERSION 15.3.0
 # work directory
 WORKDIR /usr/app
 

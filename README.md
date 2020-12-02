@@ -7,3 +7,4 @@
     2020-12-02
         package.lock.json should be deleted
         "dev" : "NODE_PATH=./src nodemon src/server.js" < = update
+        problem is node:12-alpine can have yarn, the other is not having a yarn.
