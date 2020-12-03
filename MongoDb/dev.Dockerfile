@@ -1,1 +1,1 @@
-FROM mongo-express:11
+FROM mongo-express

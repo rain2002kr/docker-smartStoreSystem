@@ -1,3 +1,5 @@
 2020/12/01 08:30:52 [error] 27#27: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.24.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
 2020/12/01 08:30:53 [error] 27#27: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
 2020/12/01 08:36:29 [error] 27#27: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.24.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2020/12/02 08:25:00 [emerg] 1#1: host not found in upstream "react-front:3000" in /etc/nginx/conf.d/default.conf:2
+2020/12/02 08:52:42 [emerg] 1#1: host not found in upstream "react-front:3000" in /etc/nginx/conf.d/default.conf:2
