@@ -32,7 +32,7 @@ app.listen(port, ()=>{
 
 function connectDB() {
     let db;
-    mongoose.connect("mongodb://localhost/test", { useNewUrlParser: true });
+    mongoose.connect("mongodb://localhost/test", { useNewUrlParser: true, useUnifiedTopology: true});
     db = mongoose.connection;
     db.on("error", console.error.bind(console, "connection error:"));
   
