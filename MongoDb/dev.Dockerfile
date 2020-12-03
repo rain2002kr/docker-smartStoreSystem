@@ -1,2 +1,2 @@
-FROM mongo-express
+FROM mongo
 
