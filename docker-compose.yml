@@ -31,13 +31,11 @@ services:
       - /usr/app/node_modules
       - ./NodeBack:/usr/app
     command: ["npm", "run", "dev"]
-
-  mongo:
-    build:
-      context: ./MongoDb
-      dockerfile: dev.Dockerfile
-    restart: always
-    env_file:
-      - .env
-    volumes:
-      - ./MongoDb/dev/data:/var/lib/mongodb/data
+    
+    mongo:
+      container_name: mongo
+      image: mongo
+      ports:
+        - 27017:27017
+      volumes:
+        - ./MongoDb/data:/data/db
